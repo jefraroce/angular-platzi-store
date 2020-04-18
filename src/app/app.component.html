@@ -42,7 +42,6 @@
 
 <div *ngFor="let product of products">
   {{ product.title }}
-  <img [src]="product.image" alt="">
-  {{ product.price }}
+  <img src="https://raw.githubusercontent.com/jefraroce/angular-platzi-store/master/src/{{product.image}}" alt="">
   {{ product.price }}
 </div>
